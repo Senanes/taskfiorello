@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    
+    padding: 4rem;
+    position: fixed;
+    width: 90%;
+    background-color: white
+    
+    
+    
+}
+
+.logo img{
+    width: 50%;
+    cursor: pointer;
+    
+}
+
+
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    
+    display: inline-block;
+    color: #6d6a6a;
+    padding: 15px 20px;
+    letter-spacing: .1em;
+    font-size: 12px;
+    word-spacing: 80px;
+    
+    
+}
+
+nav i{
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+
+nav p{
+    color: #6d6a6a;
+    display: inline-block;
+    
+    
+}
+
