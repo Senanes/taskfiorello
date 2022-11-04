@@ -1,59 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-header{
-    
-    padding: 4rem;
+header {
+    padding: 3rem 20px;
     position: fixed;
-    width: 90%;
+    width: 100%;
     background-color: white
-    
-    
-    
 }
 
-.logo img{
+.logo img {
     width: 50%;
     cursor: pointer;
-    
+
 }
 
-
-
-.header-all{
+.header-all {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-nav a{
-    
+nav a {
+
     display: inline-block;
     color: #6d6a6a;
     padding: 15px 20px;
     letter-spacing: .1em;
     font-size: 12px;
     word-spacing: 80px;
+
+
+}
+
+.icon span{
+    margin-right: 10rem;
+}
+
+.icon i{
+    margin: 20px;
+}
+
+#Slider{
+    background-color: #6d6a6a0e;
+    padding: 7rem;
+    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-4-img.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
     
     
 }
 
-nav i{
-    cursor: pointer;
-    margin-left: 20px;
-    
+.mid{
+    padding-top: 80px;
 }
 
-nav p{
+
+.mid h1{
+    font-size: 60px;
+}
+
+.mid p{
     color: #6d6a6a;
-    display: inline-block;
-    
+    font-size: 17px;
+    line-height: 29px;
+    margin-top: 20px;
     
 }
-
