@@ -16,8 +16,9 @@ header {
 }
 
 .logo img {
-    width: 50%;
+    width: 60%;
     cursor: pointer;
+    padding-left: 80px;
 
 }
 
@@ -49,7 +50,7 @@ nav a {
 
 #Slider{
     background-color: #6d6a6a0e;
-    padding: 7rem;
+    padding: 11rem;
     background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-4-img.jpg);
     background-repeat: no-repeat;
     background-position: right;
